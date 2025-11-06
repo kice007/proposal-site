@@ -12,18 +12,24 @@ export default function FinalScreen() {
   const [showOverlay, setShowOverlay] = useState(false)
   const messageRef = useRef(null)
 
-  const proposalMessage = `From the moment you came into my life, everything started to change.  
-You brought colors to my ordinary days, warmth to my silence, and a happiness I didn’t even know I was missing.  
+  const proposalMessage = `Hey Beautiful,
+So, I built you a website. Because apparently saying 'I love you' face-to-face, via text, and in random notes wasn't enough. I needed the internet involved too.
+But seriously—I wanted to create something that would last. Something you could come back to whenever you needed a reminder of how much you mean to me. Because sometimes I worry that I don't say it enough, or say it well enough, or show it clearly enough.
+So here it is, in writing, with way too many color probably some cheesy animations (I couldn't resist):
+I love you.
 
-Every sunrise feels brighter because of you.  
-Every dream feels possible because you inspire me.  
-Every challenge feels easier because I imagine you by my side.  
+I love you when you first wake up, even though you are a all time sleepy girlfriend. I love you when you're laughing so hard you can barely breathe.
+I love you when you're stressed and overwhelmed and just need someone to be there. I love you when you're excited about something and can't stop talking about it. I love you in the big moments and the tiny, mundane ones.
+I love your voice(so sexy), your smile, your ridiculous sense of humor that matches mine perfectly.
 
-You are not just my friend, you’re the most special part of my life.  
-You make me smile, you make my heart race, and you make me want to be a better version of myself.  
+You make life better. Brighter. More meaningful. You make me laugh more, think deeper, feel more alive. You make me want to be the kind of person who deserves you (which is a pretty high bar, but I'm working on it).
+I don't have all the answers about the future, but I know that I want you in mine. Whatever comes next—wherever we go, whatever we do—I want it to be together.
+So thank you. For being you. For loving me. For putting up with my weird habits and bad jokes and the fact that I apparently express my feelings through web design now.
 
-I don’t know what the future holds, but I know one thing for sure.
-I want that future with you.`
+You're stuck with me, Miss Hearty Robi Bear. For as long as you'll have me.
+All my love (and I mean ALL of it),
+Teddy
+P.S. - Seriously though, I love you. Like, a lot.`
 
   useEffect(() => {
     if (cardOpen && !typingComplete) {

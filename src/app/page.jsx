@@ -27,8 +27,8 @@ export default function ProposalSite() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-fuchsia-950/30 via-black/70 to-rose-950/40 relative overflow-hidden">
-
+    <div className="min-h-screen bg-[#4f2049] relative overflow-hidden">
+   
       <AnimatePresence mode="wait">
         {isLoading && <CuteLoader key="loader" onComplete={() => setCurrentScreen("first")} />}
 
@@ -68,7 +68,7 @@ export default function ProposalSite() {
           delay: 1,
         }}
         className="fixed bottom-4 right-4 text-[13px] text-white/40 pointer-events-none z-50 font-light">
-        @anujbuilds
+      @kice
       </motion.div>
     </div>
   )
